@@ -47,7 +47,8 @@
 	input {
 		display: block;
 		margin: 15px auto;
-		width: 75%;
+    min-width: 75%;
+    max-width: 75%;
 		height: 40px;
 		font-size: 24px;
 		border: none;
@@ -57,7 +58,8 @@
 		background: #fff2cb;
 		}
 	.result {
-		width: 75%;
+		min-width: 75%;
+    max-width: 75%;
 		height: 40px;
 		margin: 15px auto;
 		font-size: 24px;
@@ -115,13 +117,15 @@
 	}
 	input {
 		height: 50px;
-    width: 75px;
+    min-width: 75px;
+    max-width: 75px;
 		font-size: 25px;
     margin: 15px auto;
 	}
 	.result {
 		height: 50px;
-    width: 75px;  
+    min-width: 75px;
+    max-width: 75px;
 		font-size: 25px;
     margin: 15px auto;
 	}
