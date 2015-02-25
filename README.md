@@ -1,6 +1,6 @@
-# platter
+# yCalc
 
-## A simple front-end quick-start template
+# A calculator application
 
 **Release notes & included assets**
 * IE8 media query support (if you're obligated to support an antiquated enterprise stack..barf)
@@ -11,4 +11,4 @@
 * normalize.css
 
 ## Problems?
-[Submit an issue](https://github.com/freqn/platter/issues)
+[Submit an issue](https://github.com/freqn/ycalc/issues)
