@@ -4,8 +4,11 @@
   <meta charset="UTF-8">
   <title>Document</title>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
   <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="apple-touch-icon"
+    href="images/apple-touch-icon.png" />
 	<link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/font-awesome.min.css">
@@ -17,6 +20,11 @@
 		<script src="js/modernizr.custom-2.8.3.min.js"></script>
 		<script src="js/respond.js"></script>
 	<![endif]-->
+  <script>
+    function BlockElasticScroll(event) {
+        event.preventDefault();
+    }
+    </script>
 </head>
 <body>
 
