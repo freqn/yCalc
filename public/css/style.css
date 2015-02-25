@@ -1,3 +1,4 @@
+
 /**** ASSETS ****/
 
 	@import url(http://fonts.googleapis.com/css?family=Balthazar);
@@ -46,8 +47,8 @@
 	}
 	input {
 		display: block;
-		margin: 15px auto;
-		max-width: 75%;
+		margin: 20px auto;
+		width: 75%;
 		height: 40px;
 		font-size: 24px;
 		border: none;
@@ -57,9 +58,9 @@
 		background: #fff2cb;
 		}
 	.result {
-		max-width: 75%;
+		width: 75%;
 		height: 40px;
-		margin: 15px auto;
+		margin: 20px auto;
 		font-size: 24px;
 		border-radius: 5px;
 		background: #FFA500;
@@ -95,7 +96,7 @@
 	.reveal {
 		display: none;
 		margin: 30px auto;
-		min-width: 80%;
+		width: 80%;
 		height: 40px;
 		font-size: 24px;
 		border: none;
@@ -103,10 +104,9 @@
 		color: #343434;
 		text-align: center;
 	}
-  #shipped {
-    display: none;
-  }
-
+	#shipped {
+		display:none;
+	}
 }
 
 @media only screen and (min-height : 667px){
@@ -115,15 +115,11 @@
 	}
 	input {
 		height: 50px;
-    min-width: 75px;
 		font-size: 25px;
-    margin: 15px auto;
 	}
 	.result {
 		height: 50px;
-    min-width: 75px;
 		font-size: 25px;
-    margin: 15px auto;
 	}
 	.label p, .value p {
 		margin-top: 9px;
@@ -176,17 +172,3 @@
 @media only screen and (min-width : 1200px) {
 
 }
-Status API Training Shop Blog About
-© 2015 GitHub, Inc. Terms Privacy Security Contact
-freqn / platter
-master
- css
- font-awesome.min.css
- ie8.css
- mobile.css
- normalize.css
- style.css
- fonts
- js
- README.md
- index.html
