@@ -1,18 +1,3 @@
-Skip to content
- This repository
-Explore
-Gist
-Blog
-Help
-Chip Eyler freqn
-
-1  Unwatch
-  Star 0
- Fork 0freqn/platter
- branch: master  platter/css/style.css
-Chip Eylerfreqn 7 minutes ago Init
-1 contributor
-174 lines (160 sloc)  2.756 kb RawBlameHistory
 /**** ASSETS ****/
 
 	@import url(http://fonts.googleapis.com/css?family=Balthazar);
@@ -118,9 +103,7 @@ Chip Eylerfreqn 7 minutes ago Init
 		color: #343434;
 		text-align: center;
 	}
-	#shipped {
-		display:none;
-	}
+
 }
 
 @media only screen and (min-height : 667px){
@@ -130,10 +113,12 @@ Chip Eylerfreqn 7 minutes ago Init
 	input {
 		height: 50px;
 		font-size: 25px;
+    margin: 15px auto;
 	}
 	.result {
 		height: 50px;
 		font-size: 25px;
+    margin: 15px auto;
 	}
 	.label p, .value p {
 		margin-top: 9px;
