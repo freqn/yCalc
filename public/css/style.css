@@ -46,7 +46,7 @@
 	}
 	input {
 		display: block;
-		margin: 20px auto;
+		margin: 15px auto;
 		width: 75%;
 		height: 40px;
 		font-size: 24px;
@@ -59,7 +59,7 @@
 	.result {
 		width: 75%;
 		height: 40px;
-		margin: 20px auto;
+		margin: 15px auto;
 		font-size: 24px;
 		border-radius: 5px;
 		background: #FFA500;
@@ -103,6 +103,9 @@
 		color: #343434;
 		text-align: center;
 	}
+  #shipped {
+    display: none;
+  }
 
 }
 
